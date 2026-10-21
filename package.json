@@ -1,0 +1,14 @@
+{
+  "name": "unitone-gap-prototype-check",
+  "version": "1.0.0",
+  "description": "Readiness checks for agriculture AI gap-to-prototype plans",
+  "type": "module",
+  "main": "src/checker.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/agri-perception-pilot.json"
+  },
+  "keywords": ["unitone-ai", "agriculture-ai", "prototype", "research"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
