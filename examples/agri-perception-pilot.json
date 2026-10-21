@@ -1,0 +1,9 @@
+{
+  "problemGap": "Field teams lack a low-cost way to spot early crop stress before visible damage spreads.",
+  "userContext": "Farm operations teams reviewing drone and phone images during weekly field visits.",
+  "datasetSource": "Public plant-village images plus consented pilot photos collected by the field team.",
+  "baseline": "Compare against weekly manual inspection with a target of at least 80% recall.",
+  "evaluationMetric": "Recall at 80% or better and false positives reviewed by an agronomist.",
+  "prototypeStep": "Build a small image classifier and report confidence-ranked stressful regions for review.",
+  "validationOwner": "Agronomy reviewer and product engineer"
+}
